@@ -7,6 +7,8 @@ import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 
+//template_gsciu2r
+
 const Contact = () => {
   const formRef=useRef();
   const [form, setForm] = useState({
@@ -16,7 +18,9 @@ const Contact = () => {
   });
   const [loading,setLoading]=useState(false);
 
-  const handleChange=(e)=>{}
+  const handleChange=(e)=>{
+    
+  }
   const handleSubmit=(e)=>{}
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
