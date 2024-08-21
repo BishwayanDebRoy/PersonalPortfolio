@@ -28,7 +28,7 @@ import jpmc from './company/jpmc.jpg';
 import unfold from "./company/unfold.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import portfolioimage from "./portfolioimage.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -59,6 +59,6 @@ export {
   jpmc,
   unfold,
   carrent,
-  jobit,
+  portfolioimage,
   tripguide,
 };

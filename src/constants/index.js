@@ -20,9 +20,10 @@ import {
     unfold,
     srm,
     carrent,
-    jobit,
+    portfolioimage,
     tripguide,
     threejs,
+
 } from "../assets";
 
 export const navLinks = [
@@ -211,25 +212,25 @@ const projects = [
         source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
+        name: "Personal Portfolio",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "The Personal Portfolio is a responsive website created by me to showcase my skills, projects, and experiences. It features a clean design, highlighting my technical expertise and providing a professional online presence.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "tailwind",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "three.js",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: portfolioimage,
+        source_code_link: "https://github.com/BishwayanDebRoy/PersonalPortfolio",
     },
     {
         name: "Trip Guide",
