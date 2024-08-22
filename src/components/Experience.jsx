@@ -56,4 +56,4 @@ const Experience = () => {
   )
 }
 
-export default SectionWrapper(Experience,"work")
+export default SectionWrapper(Experience,"experience")

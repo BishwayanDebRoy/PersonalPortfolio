@@ -27,7 +27,7 @@ import srm from "./company/srm.png";
 import jpmc from './company/jpmc.jpg';
 import unfold from "./company/unfold.png";
 
-import carrent from "./carrent.png";
+import shikshas from "./shikshas.png";
 import portfolioimage from "./portfolioimage.png";
 import tripguide from "./tripguide.png";
 
@@ -58,7 +58,7 @@ export {
   srm,
   jpmc,
   unfold,
-  carrent,
+  shikshas,
   portfolioimage,
   tripguide,
 };

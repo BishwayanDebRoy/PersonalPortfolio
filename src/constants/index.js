@@ -19,7 +19,7 @@ import {
     jpmc,
     unfold,
     srm,
-    carrent,
+    shikshas,
     portfolioimage,
     tripguide,
     threejs,
@@ -32,8 +32,16 @@ export const navLinks = [
         title: "About",
     },
     {
-        id: "work",
-        title: "Work",
+        id: "experience",
+        title: "Experience",
+    },
+    {
+        id: "techstack",
+        title: "Technologies",
+    },
+    {
+        id: "project",
+        title: "Project",
     },
     {
         id: "contact",
@@ -191,24 +199,24 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Shiksha Sankalp",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "It is an educational platform that bridges the gap between students and quality resources, offering accessible, high-quality learning materials to enhance the educational experience across all levels.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "nodejs",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "mongodb",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: shikshas,
         source_code_link: "https://github.com/",
     },
     {
