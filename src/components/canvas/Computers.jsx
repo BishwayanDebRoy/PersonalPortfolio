@@ -3,8 +3,14 @@ import { Canvas } from '@react-three/fiber'
 import { meshBounds, OrbitControls,Preload,useGLTF } from '@react-three/drei'
 import CanvasLoader from '../Loader'
 
-const Computers = (isMobile) => {
+const Computers = ({isMobile}) => {
   const computer=useGLTF('./desktop_pc/scene.gltf')
+  useEffect(() => {
+    return () => {
+      // Dispose of the context and other resources here
+      renderer.dispose();
+    };
+  }, []);
   return (
     <mesh>
       <hemisphereLight intensity={Math.PI} groundColor="black"/>
@@ -16,12 +22,12 @@ const Computers = (isMobile) => {
       intensity={1}
       castShadow
       shadow-mapSize={1024}
-      decay={false}/>
+      decay={0}/>
       <primitive
       object={computer.scene}
       scale={isMobile?0.7:0.75}
       position={isMobile?[0,-3,-2.2]:[0,-3.75,-1.5]}
-      rotation={[-0.01,-0.2,-0,1]}/>
+      rotation={[-0.01,-0.2,-0.1]}/>
     </mesh>
   )
 }

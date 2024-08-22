@@ -113,10 +113,7 @@ const technologies = [
         name: "Git",
         icon: git,
     },
-    {
-        name: "Python",
-        icon: python,
-    },
+
     {
         name: "Java",
         icon: java,
