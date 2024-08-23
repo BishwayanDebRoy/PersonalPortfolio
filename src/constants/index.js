@@ -215,6 +215,7 @@ const projects = [
         ],
         image: shikshas,
         source_code_link: "https://github.com/",
+        live_link: "https://bishwayan-portfolio.vercel.app/"
     },
     {
         name: "Personal Portfolio",
@@ -236,6 +237,7 @@ const projects = [
         ],
         image: portfolioimage,
         source_code_link: "https://github.com/BishwayanDebRoy/PersonalPortfolio",
+        live_link: "https://bishwayan-portfolio.vercel.app/",
     },
     {
         name: "Trip Guide",
@@ -257,6 +259,7 @@ const projects = [
         ],
         image: tripguide,
         source_code_link: "https://github.com/",
+        live_link: "https://bishwayan-portfolio.vercel.app/",
     },
 ];
 
