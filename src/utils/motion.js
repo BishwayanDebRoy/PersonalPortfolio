@@ -74,6 +74,33 @@ export const slideIn = (direction, type, delay, duration) => {
         },
     };
 };
+export const rotateIn = {
+    initial: {
+        opacity: 0,
+        rotateX: 120,
+    },
+    enter: (i) => ({
+        opacity: 1,
+        rotateX: 0,
+        transition: {
+            type: "tween",
+            delay: i * 0.05,
+            ease: "easeOut",
+            duration: 0.5,
+        },
+    }),
+    exit: (i) => ({
+        opacity: 0,
+        rotateX: 120,
+        transition: {
+            type: "tween",
+            delay: i * 0.05,
+            ease: "easeOut",
+            duration: 0.5,
+        },
+    }),
+}
+
 
 export const staggerContainer = (staggerChildren, delayChildren) => {
     return {

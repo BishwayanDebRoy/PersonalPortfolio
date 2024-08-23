@@ -7,6 +7,7 @@ import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 
+
 //template_gsciu2r
 
 const Contact = () => {
@@ -111,6 +112,7 @@ const Contact = () => {
       <motion.div
        variants={slideIn("right","tween",0.2,1)}
        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
+       
         <EarthCanvas/>
       </motion.div>
     </div>

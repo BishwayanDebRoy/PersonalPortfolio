@@ -19,7 +19,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <a href="https://x.com/Bishwayan11_dr" className="flex items-center space-x-3 hover:text-sky-400 transition">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-5" viewBox="0 0 24 24">
             <path d="M22.66 0H19.7l-7.68 10.38L4.35 0H1.38L10.5 12 1.22 24h2.95l7.61-10.27L19.47 24h2.95L13.41 12 22.66 0z"/>
         </svg>
                                 <span>Twitter</span>
