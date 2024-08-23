@@ -29,7 +29,7 @@ const ProjectCard=({index,name,description,tags,image,source_code_link,live_link
           <div
           onClick={()=> window.open
           (live_link,"_blank")}
-          className='black-gradient w-10 h-10 rounded-full justify-center items-center cursor-pointer'>
+          className='black-gradient w-10 h-10 rounded-full justify-center items-center cursor-pointer mr-2'>
             <img
             src={globeimg}
             alt='github'
