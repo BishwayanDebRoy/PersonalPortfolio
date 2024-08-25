@@ -110,7 +110,7 @@ const Navbar = () => {
             <li 
               key={link.id}
               className={`${
-                active === link.title ? "text-white" : "text-secondary"
+                active === link.title ? "text-greenclr" : "text-tertiary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}>
               <a href={`#${link.id}`}>{link.title}</a>
@@ -120,7 +120,7 @@ const Navbar = () => {
             <a
               href="/resume/BishwayanDebRoy_Resume_SDE.pdf"
               download
-              className="bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white px-4 py-2 rounded-md hover:bg-white hover:text-primary transition font-medium"
+              className="bg-greenclr shadow-lg shadow-green-500/50 text-white px-4 py-2 rounded-md hover:bg-white hover:text-primary transition font-medium"
             >
               Download Resume
             </a>
@@ -136,7 +136,7 @@ const Navbar = () => {
                 <li 
                   key={link.id}
                   className={`${
-                    active === link.title ? "text-white" : "text-secondary"
+                    active === link.title ? "text-greenclr" : "text-tertiary"
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);
@@ -149,7 +149,7 @@ const Navbar = () => {
                 <a
                   href="/resume/BishwayanDebRoy_Resume_SDE.pdf"
                   download
-                  className="bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white px-4 py-2 rounded-md hover:bg-white hover:text-primary transition font-medium"
+                  className="bg-greenclr shadow-lg shadow-green-500/50 text-white px-4 py-2 rounded-md hover:bg-white hover:text-primary transition font-medium"
                 >
                   Download Resume
                 </a>
