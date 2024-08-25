@@ -14,7 +14,7 @@ module.exports = {
         greenclr: "#1db954",
         onyx: "#353935",
         charcoal: "	#36454F",
-        blackshade: "#2E2E2E",
+        blackshade: "#1b1f23",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
