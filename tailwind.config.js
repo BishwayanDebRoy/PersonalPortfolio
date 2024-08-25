@@ -12,6 +12,7 @@ module.exports = {
         // tertiary: "#151030",
         tertiary: "#E5E4E2",
         greenclr: "#1db954",
+        greenlight: "#1ed760",
         onyx: "#353935",
         charcoal: "	#36454F",
         blackshade: "#1b1f23",

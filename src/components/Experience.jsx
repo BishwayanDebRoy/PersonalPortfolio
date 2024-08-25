@@ -20,7 +20,7 @@ const ExperienceCard=({experience})=>(
       className='w-[60%] h-[60%] object-contain' />
     </div>
   }>
-    <div className='text-white text-[24px] font-bold '>
+    <div className='text-greenlight text-[24px] font-bold '>
       <h3>{experience.title}</h3>
       <p className='text-tertiary text-[16px] font-semibold' style={{margin:0}}>{experience.company_name}</p>
     </div>
