@@ -26,6 +26,8 @@ import {
     portfolioimage,
     tripguide,
     threejs,
+    debuggerlgo,
+    frntend,
 
 
 } from "../assets";
@@ -64,11 +66,11 @@ const services = [
     },
     {
         title: "Frontend Developer",
-        icon: backend,
+        icon: frntend,
     },
     {
         title: "Debugger",
-        icon: creator,
+        icon: debuggerlgo,
     },
 ];
 

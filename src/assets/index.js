@@ -9,6 +9,9 @@ import globeimg from "./globeimg.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
 import reactdevimg from "./reactdevimg.png"
+import debuggerlgo from "./debuggerlgo.png"
+import frntend from "./frntend.png"
+
 
 import css from "./tech/css.png";
 import python from "./tech/python.jpeg";
@@ -67,4 +70,6 @@ export {
   shikshas,
   portfolioimage,
   tripguide,
+  debuggerlgo,
+  frntend,
 };
