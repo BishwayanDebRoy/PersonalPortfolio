@@ -2,11 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="relative py-20 flex flex-col items-center bg-blackshade overflow-hidden md:py-40">
+    <footer className="relative py-20 flex flex-col items-center bg-primary overflow-hidden md:py-40">
     <div className="relative z-[1] container m-auto px-6 md:px-12">
         <div className="m-auto md:w-10/12 lg:w-8/12 xl:w-6/12 xl:h-[100px] ">
             <div className="flex flex-wrap items-center justify-between md:flex-nowrap">
-                <div className="w-full space-x-12 flex justify-center text-tertiary sm:w-7/12 md:justify-start">
+                <div className="w-full space-x-12 flex justify-center text-gray-400 sm:w-7/12 md:justify-start">
                    
                     <ul role="list" className="space-y-8">
                         <li>
@@ -66,9 +66,9 @@ const Footer = () => {
         </div>
     </div>
     <div aria-hidden="true" className="absolute h-full inset-0 flex items-center">
-        <div aria-hidden="true" className="bg-layers bg-scale w-80 h-80 m-auto blur-3xl bg-gradient-to-r from-black-400 via-gray-500 to-white-100 rounded-full xs:w-[35rem] xs:h-[35rem] md:blur-3xl"></div>
+        <div aria-hidden="true" className="bg-layers bg-scale w-80 h-80 m-auto blur-3xl bg-gradient-to-r from-gray-400 via-gray-500 to-white-100 rounded-full xs:w-[35rem] xs:h-[35rem] md:blur-3xl"></div>
     </div>
-    <div aria-hidden="true" className="absolute inset-0 w-full h-full bg-[#020314] opacity-80"></div>
+    <div aria-hidden="true" className="absolute inset-0 w-full h-full bg-primary opacity-80"></div>
 </footer>
   )
 }

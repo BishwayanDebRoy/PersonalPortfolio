@@ -3,10 +3,12 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import webdevimg from "./webdevimg.png"
 import github from "./github.png";
 import globeimg from "./globeimg.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
+import reactdevimg from "./reactdevimg.png"
 
 import css from "./tech/css.png";
 import python from "./tech/python.jpeg";
@@ -38,6 +40,7 @@ export {
   creator,
   mobile,
   web,
+  webdevimg,
   github,
   globeimg,
   menu,
@@ -52,6 +55,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  reactdevimg,
   redux,
   tailwind,
   bootstrap,

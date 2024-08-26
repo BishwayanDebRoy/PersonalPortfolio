@@ -20,8 +20,8 @@ const App=()=> {
     <Works/>
     <Feedbacks/>
     <div className="relative z-0">
-      <StarsCanvas/>
       <Contact/>
+      <StarsCanvas/>
       <Footer/>
     </div>
    </div>

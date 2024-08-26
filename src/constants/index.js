@@ -3,6 +3,8 @@ import {
     backend,
     creator,
     web,
+    webdevimg,
+    reactdevimg,
     javascript,
     bootstrap,
     html,
@@ -19,10 +21,12 @@ import {
     jpmc,
     unfold,
     srm,
+
     shikshas,
     portfolioimage,
     tripguide,
     threejs,
+
 
 } from "../assets";
 
@@ -52,11 +56,11 @@ export const navLinks = [
 const services = [
     {
         title: "Web Developer",
-        icon: web,
+        icon: webdevimg,
     },
     {
         title: "React  Developer",
-        icon: mobile,
+        icon: reactdevimg,
     },
     {
         title: "Frontend Developer",
