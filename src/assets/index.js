@@ -11,6 +11,7 @@ import close from "./close.svg";
 import reactdevimg from "./reactdevimg.png"
 import debuggerlgo from "./debuggerlgo.png"
 import frntend from "./frntend.png"
+import myheroimg from "./myheroimg.png"
 
 
 import css from "./tech/css.png";
@@ -72,4 +73,5 @@ export {
   tripguide,
   debuggerlgo,
   frntend,
+  myheroimg,
 };
