@@ -35,8 +35,7 @@ import jpmc from './company/jpmc.jpg';
 import unfold from "./company/unfold.png";
 
 import shikshas from "./shikshas.png";
-import portfolioimage from "./portfolioimage.png";
-import portfoliothumbnail from "./portfolioimage.png";
+import portfoliothumbnail from "./portfoliothumbnail.png";
 import tripguide from "./tripguide.png";
 import echowritephoto from "./echowritephoto.png";
 
@@ -71,7 +70,6 @@ export {
   jpmc,
   unfold,
   shikshas,
-  portfolioimage,
   portfoliothumbnail,
   tripguide,
   echowritephoto,
