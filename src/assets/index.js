@@ -36,7 +36,9 @@ import unfold from "./company/unfold.png";
 
 import shikshas from "./shikshas.png";
 import portfolioimage from "./portfolioimage.png";
+import portfoliothumbnail from "./portfolioimage.png";
 import tripguide from "./tripguide.png";
+import echowritephoto from "./echowritephoto.png";
 
 export {
   logo,
@@ -70,7 +72,9 @@ export {
   unfold,
   shikshas,
   portfolioimage,
+  portfoliothumbnail,
   tripguide,
+  echowritephoto,
   debuggerlgo,
   frntend,
   myheroimg,

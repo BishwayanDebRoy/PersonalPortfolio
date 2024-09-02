@@ -1,8 +1,5 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+
     webdevimg,
     reactdevimg,
     javascript,
@@ -21,13 +18,12 @@ import {
     jpmc,
     unfold,
     srm,
-
     shikshas,
-    portfolioimage,
-    tripguide,
+    echowritephoto,
     threejs,
     debuggerlgo,
     frntend,
+    portfoliothumbnail,
 
 
 } from "../assets";
@@ -241,31 +237,31 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: portfolioimage,
+        image: portfoliothumbnail,
         source_code_link: "https://github.com/BishwayanDebRoy/PersonalPortfolio",
         live_link: "https://bishwayan-portfolio.vercel.app/",
     },
     {
-        name: "Trip Guide",
+        name: "Echowrite",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "EchoWrite is a project to create a visually appealing, responsive blog website with advanced CSS techniques, focusing on aesthetics and user-friendly design.",
         tags: [
             {
-                name: "nextjs",
+                name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "tailwind CSS",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "appwrite",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-        live_link: "https://bishwayan-portfolio.vercel.app/",
+        image: echowritephoto,
+        source_code_link: "https://github.com/BishwayanDebRoy/Echowrite",
+        live_link: "https://echowrite-blogapp.vercel.app/",
     },
 ];
 
