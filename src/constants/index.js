@@ -216,8 +216,8 @@ const projects = [
             },
         ],
         image: shikshas,
-        source_code_link: "https://github.com/",
-        live_link: "https://bishwayan-portfolio.vercel.app/"
+        source_code_link: "https://github.com/BishwayanDebRoy/Shiksha-Sankalp",
+        live_link: "https://shiksha-sankalp-app.vercel.app/"
     },
     {
         name: "Personal Portfolio",
