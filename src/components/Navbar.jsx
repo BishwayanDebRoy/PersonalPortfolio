@@ -118,7 +118,7 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="/resume/BishwayanDebRoy_Resume_SDE.pdf"
+              href="/resume/Bishwayan_Resume.pdf"
               download
               className="bg-greenclr shadow-lg shadow-green-500/50 text-white px-4 py-2 rounded-md hover:bg-white hover:text-primary transition font-medium"
             >

@@ -12,6 +12,7 @@ import reactdevimg from "./reactdevimg.png"
 import debuggerlgo from "./debuggerlgo.png"
 import frntend from "./frntend.png"
 import myheroimg from "./myheroimg.png"
+import myheroimgg from "./myheroimgg.png"
 
 
 import css from "./tech/css.png";
@@ -76,4 +77,5 @@ export {
   debuggerlgo,
   frntend,
   myheroimg,
+  myheroimgg,
 };
