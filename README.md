@@ -13,9 +13,9 @@ You can check the live version of my portfolio here: [Live Portfolio](https://bi
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Setup](#setup)
-- [Project Structure](#project-structure)
+- [License](#license)
 - [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
+
 
 ## 🛠 About the Project
 
