@@ -66,7 +66,7 @@ You need to have Node.js and npm installed. Check out [Node.js](https://nodejs.o
 
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev
 
 The application should now be running at http://localhost:5173.
 
