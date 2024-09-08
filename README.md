@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio repository! This project is a reflection of my journey as a software developer and serves as a platform to showcase my skills, projects, and experiences in frontend development to potential recruiters and collaborators.
 
+![Portfolio Screenshot](./src/assets/mockimg.png)
+
 ## 🔗 Live Preview
 You can check the live version of my portfolio here: [Live Portfolio](https://bishwayan-portfolio.vercel.app)
 
