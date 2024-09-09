@@ -28,7 +28,7 @@ This portfolio serves as my personal space to display my technical journey, show
 - **Skills Section:** A dedicated area to highlight the technical skills and tools I am proficient in, categorized for easy navigation.
 - **Interactive Animations:** Dynamic UI/UX with animations to provide an engaging experience (using Framer Motion).
 - **Resume Download:** A direct download button for my latest resume.
-- **Dark/Light Theme Toggle:** Option for recruiters to switch between dark and light modes for better readability.
+
 
 ## 🛠️ Technologies Used
 
